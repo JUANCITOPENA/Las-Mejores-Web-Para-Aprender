@@ -20,7 +20,7 @@ links.forEach(function(link) {
         content.classList.add("animated");
 
         setTimeout(function() {
-            location.href = "index.html";
+            location.href = "../index.html";
         }, 700);
 
         return false;
