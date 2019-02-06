@@ -20,7 +20,7 @@ links.forEach(function(link) {
         content.classList.add("animated");
 
         setTimeout(function() {
-            location.href = "/";
+            location.href = "/Boletines-JPV/index.html";
         }, 700);
 
         return false;
