@@ -1,4 +1,4 @@
-    html {
+        html {
         font-family: 'Nunito', sans-serif, roboto;
     }
     
@@ -334,4 +334,14 @@
             margin-left: auto !important;
             text-align: center;
         }
-    }
+        .card img {
+            width: 20%;
+            display: block;
+            margin: auto;
+            background: white;
+            font-size: 12px;
+            box-shadow: 1px 1px 20px -5px black;
+            border-radius: 150px;
+            transform: translateZ(100px);
+            border: solid 2px #ff3f34;
+        }
