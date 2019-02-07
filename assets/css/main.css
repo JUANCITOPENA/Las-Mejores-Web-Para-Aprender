@@ -306,11 +306,11 @@
                 transform: translateZ(100px);
                 border: solid 2px #ff3f34;
             }
-            .card h1 {
+            .card h2 {
                 transform: translateZ(20px);
                 display: block;
             }
-            .card h1.related {
+            .card h2.related {
                 transform: translateZ(20px);
                 font-style: italic;
             }
@@ -320,7 +320,6 @@
                 font-size: 20px;
                 color: #485460;
             }
-            h1,
             h2 {
                 text-align: center;
                 font-size: 1.5em;
@@ -345,11 +344,11 @@
                 transform: translateZ(100px);
                 border: solid 2px #ff3f34;
             }
-            .card h1 {
+            .card h2 {
                 transform: translateZ(20px);
                 display: block;
             }
-            .card h1.related {
+            .card h2.related {
                 transform: translateZ(20px);
                 font-style: italic;
             }
