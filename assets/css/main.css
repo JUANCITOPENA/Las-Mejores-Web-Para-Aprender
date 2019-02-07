@@ -297,6 +297,8 @@
         }
         .card img {
             width: 30%;
+            display: block;
+            margin: auto;
             background: white;
             font-size: 12px;
             box-shadow: 1px 1px 20px -5px black;
