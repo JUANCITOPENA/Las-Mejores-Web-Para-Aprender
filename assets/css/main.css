@@ -1,218 +1,256 @@
-        html {
-            font-family: 'Nunito', sans-serif, roboto;
-        }
-        
-        a {
-            text-decoration: none;
-            color: #192a56;
-        }
-        
-        a:hover {
-            opacity: 0.4;
-        }
-        
-        a:focus {
-            background: #6DD5FA;
-        }
-        
-        .title {
-            text-transform: uppercase;
-        }
-        
-        .titulo{
-            text-align: justify;
-            font-size: 1.5em; 
-        }
-        h1,
-        h2 {
-            text-align: center;
-            font-size: 3em;
-        }
-        
-        .Logo {
-            /* position: relative; */
-            /* float: left; */
-            /* margin-right: 1em; */
-            height: 150px;
-            display: block;
-            margin: auto;
-            max-width: 100%;
-            /* border-radius: 160px;
+    html {
+        font-family: 'Nunito', sans-serif, roboto;
+    }
+    
+    a {
+        text-decoration: none;
+        color: #192a56;
+    }
+    
+    a:hover {
+        opacity: 0.4;
+    }
+    
+    a:focus {
+        background: #6DD5FA;
+    }
+    
+    .title {
+        text-transform: uppercase;
+    }
+    
+    .titulo {
+        text-align: justify;
+        font-size: 1.5em;
+    }
+    
+    h1,
+    h2 {
+        text-align: center;
+        font-size: 3em;
+    }
+    
+    .Logo {
+        /* position: relative; */
+        /* float: left; */
+        /* margin-right: 1em; */
+        height: 150px;
+        display: block;
+        margin: auto;
+        max-width: 100%;
+        /* border-radius: 160px;
             width: 150px;
             height: auto;
             display: block;
             margin: auto;
             margin-top: 5px;
             margin-bottom: 20px; */
+    }
+    
+    .info {
+        line-height: 20px;
+        font-family: roboto;
+        font-size: 20px;
+        text-align: justify;
+        padding: 5px;
+        margin: 10px;
+        color: #2f3542;
+        background-color: #fbc531;
+    }
+    
+    address {
+        line-height: 20px;
+        font-weight: bold;
+        text-align: justify;
+        padding: 5px;
+        margin: 10px;
+        color: #192a56;
+        font-size: 1.2em;
+        margin-top: 1em;
+        display: inline-block;
+    }
+    
+    .container {
+        background: #2980B9;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .content {
+        max-width: 980px;
+        max-height: 95vh !important;
+        width: 100%;
+        height: 100vh;
+        background-color: #f5f6fa;
+        /* box-shadow: 0px 3px 6px 5px #7f8c8d; */
+        box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16), 0px 3px 6px rgba(0, 0, 0, 0.23);
+        border-radius: 6px;
+        position: relative;
+        overflow-x: hidden;
+    }
+    
+    .content {
+        padding: 1em;
+        margin-right: auto !important;
+        margin-left: auto !important;
+    }
+    
+    td {
+        display: block;
+        width: 100%;
+    }
+    
+    td:nth-of-type(1) {
+        font-size: 2em;
+        font-weight: bold;
+        color: #e74c3c;
+    }
+    
+    th {
+        display: none;
+    }
+    
+    .actions {
+        position: absolute;
+        top: 1em;
+        right: 1em;
+    }
+    
+    .close {
+        height: 40px;
+        width: 40px;
+        color: white;
+        border-radius: 50%;
+        background-color: #e74c3c;
+        display: inline-block;
+        font-weight: 300;
+        box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16), 0px 3px 6px rgba(0, 0, 0, 0.23);
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .paragraph {
+        line-height: 20px;
+        font-weight: 700;
+        text-align: justify;
+        padding: 5px;
+        margin: 10px;
+    }
+    
+    strong {
+        font-size: 500;
+        text-align: justify;
+    }
+    
+    .fundadores {
+        background: #f1f2f6;
+        height: 40vh;
+        display: block;
+        margin: auto;
+        max-width: 100%;
+    }
+    
+    .CEO {
+        line-height: 20px;
+        font-size: 40px;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        margin: 5px;
+    }
+    
+    .Creadores {
+        display: block;
+        margin: auto;
+        max-width: 100%;
+    }
+    
+    .Platzi {
+        display: block;
+        margin: auto;
+        max-width: 75%;
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+    
+    .fa-star,
+    .fa-star-o {
+        color: #ffa502;
+    }
+    
+    p {
+        color: black;
+    }
+    
+    .red {
+        height: 200px;
+        width: 100px;
+        background-color: red;
+    }
+    
+    .tabla {
+        width: 100%;
+        border-spacing: 0;
+    }
+    
+    .tabla td,
+    .tabla th {
+        padding: 1em;
+        text-align: left;
+    }
+    
+    .tabla tr:nth-child(even) {
+        background-color: #C4E538;
+    }
+    
+    .title-items {
+        border-bottom-style: solid;
+        border-width: 2px;
+        border-color: #e74c3c;
+        padding-bottom: 1em;
+    }
+    
+    .position {
+        background-color: #e74c3c;
+        color: white;
+        padding: 0.2em;
+        border-radius: 4px;
+        margin-right: 0.5em;
+    }
+    /*media */
+    
+    @media (min-width: 900px) {
+        th {
+            display: table-cell;
         }
-        
-        .info {
-            line-height: 20px;
-            font-family: roboto;
-            font-size: 20px;
-            text-align: justify;
-            padding: 5px;
-            margin: 10px;
-            color: #2f3542;
-            background-color: #fbc531;
-        }
-        
-        address {
-            line-height: 20px;
-            font-weight: bold;
-            text-align: justify;
-            padding: 5px;
-            margin: 10px;
-            color: #192a56;
-            font-size: 1.2em;
-            margin-top: 1em;
-            display: inline-block;
-        }
-        
-        .container {
-            background: #2980B9;
-            /* fallback for old browsers */
-            background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);
-            /* Chrome 10-25, Safari 5.1-6 */
-            background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);
-            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-            height: 100vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        
-        .content {
-            max-width: 980px;
-            max-height: 95vh !important;
-            width: 100%;
-            height: 95vh;
-            background-color: #f5f6fa;
-            /* box-shadow: 0px 3px 6px 5px #7f8c8d; */
-            box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16), 0px 3px 6px rgba(0, 0, 0, 0.23);
-            border-radius: 6px;
-            position: relative;
-            overflow-x: hidden;
-        }
-        
-        .content {
-            padding: 1em;
-            margin-right: auto !important;
-            margin-left: auto !important;
-        }
-        
         td {
-            display: block;
-            width: 100%;
+            width: auto;
+            display: table-cell;
         }
-        
         td:nth-of-type(1) {
-            font-size: 2em;
+            font-size: 1em;
             font-weight: bold;
             color: #e74c3c;
         }
-        
-        th {
-            display: none;
+        .content {
+            padding: 1.8em;
         }
-        
-        .actions {
-            position: absolute;
-            top: 1em;
-            right: 1em;
+    }
+    
+    @media (min-height: 550px) {
+        .content {
+            height: 1000px;
+            margin-right: auto !important;
+            margin-left: auto !important;
         }
-        
-        .close {
-            height: 40px;
-            width: 40px;
-            color: white;
-            border-radius: 50%;
-            background-color: #e74c3c;
-            display: inline-block;
-            font-weight: 300;
-            box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16), 0px 3px 6px rgba(0, 0, 0, 0.23);
-            cursor: pointer;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        
-        .paragraph {
-            line-height: 20px;
-            font-weight: 700;
-            text-align: justify;
-            padding: 5px;
-            margin: 10px;
-        }
-        
-        .fa-star,
-        .fa-star-o {
-            color: #ffa502;
-        }
-        
-        p {
-            color: black;
-        }
-        
-        .red {
-            height: 200px;
-            width: 100px;
-            background-color: red;
-        }
-        
-        .tabla {
-            width: 100%;
-            border-spacing: 0;
-        }
-        
-        .tabla td,
-        .tabla th {
-            padding: 1em;
-            text-align: left;
-        }
-        
-        .tabla tr:nth-child(even) {
-            background-color: #C4E538;
-        }
-        
-        .title-items {
-            border-bottom-style: solid;
-            border-width: 2px;
-            border-color: #e74c3c;
-            padding-bottom: 1em;
-        }
-        
-        .position {
-            background-color: #e74c3c;
-            color: white;
-            padding: 0.2em;
-            border-radius: 4px;
-            margin-right: 0.5em;
-        }
-        /*media */
-        
-        @media (min-width: 900px) {
-            th {
-                display: table-cell;
-            }
-            td {
-                width: auto;
-                display: table-cell;
-            }
-            td:nth-of-type(1) {
-                font-size: 1em;
-                font-weight: bold;
-                color: #e74c3c;
-            }
-            .content {
-                padding: 1.8em;
-            }
-        }
-        
-        @media (min-height: 550px) {
-            .content {
-                height: 500px;
-                margin-right: auto !important;
-                margin-left: auto !important;
-            }
-        }
+    }
