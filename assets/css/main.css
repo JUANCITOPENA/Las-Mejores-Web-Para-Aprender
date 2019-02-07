@@ -153,6 +153,7 @@
     
     .fundadores {
         background: #f1f2f6;
+        width: 100%;
         height: 40vh;
         display: block;
         margin: auto;
@@ -161,12 +162,12 @@
     
     .CEO {
         line-height: 20px;
-        font-size: 40px;
-        font-weight: bold;
+        font-weight: 700;
         text-align: center;
-        margin-top: 5px;
-        margin-bottom: 10px;
-        margin: 5px;
+        padding: 5px;
+        margin: 10px;
+        margin-bottom: 52px;
+        margin-top: 2px;
     }
     
     .Creadores {
@@ -176,6 +177,7 @@
     }
     
     .Platzi {
+        width: 100%;
         display: block;
         margin: auto;
         max-width: 75%;
@@ -227,6 +229,25 @@
         border-radius: 4px;
         margin-right: 0.5em;
     }
+    /*Responsive Desing Media Query */
+    
+    table {
+        position: relative !important;
+        left: 0% !important;
+        text-align: center;
+    }
+    
+    tr:hover td {
+        background: #32ff7e;
+        color: #3742fa;
+        font-weight: bold;
+    }
+    
+    #miTablaPersonalizada th {
+        width: 150px;
+        overflow: auto;
+        margin-left: -25%;
+    }
     /*media */
     
     @media (min-width: 900px) {
@@ -236,6 +257,7 @@
         td {
             width: auto;
             display: table-cell;
+            text-align: center;
         }
         td:nth-of-type(1) {
             font-size: 1em;
@@ -244,6 +266,34 @@
         }
         .content {
             padding: 1.8em;
+            text-align: center;
+        }
+    }
+    
+    @media screen and (max-width: 600px) {
+        table {
+            width: 100%;
+            margin-left: auto;
+        }
+        thead {
+            display: none;
+        }
+        tr:nth-of-type(2n) {
+            background-color: inherit;
+        }
+        tr td:first-child {
+            background: #dff9fb;
+            font-weight: bold;
+            font-size: 1.3em;
+        }
+        tbody td {
+            display: block;
+            text-align: center;
+        }
+        tbody td:before {
+            content: attr(data-th);
+            display: block;
+            text-align: center;
         }
     }
     
@@ -252,5 +302,6 @@
             height: 1000px;
             margin-right: auto !important;
             margin-left: auto !important;
+            text-align: center;
         }
     }
