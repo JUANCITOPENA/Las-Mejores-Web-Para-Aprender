@@ -5,11 +5,11 @@ Hola Amigos, aqui les dejo el Proyecto en HTML, CSS y Javascript sobre Los Mejor
 
 # Capturas de pantallas del proyecto:
 
-![](assets/imagenes/imagen1.png)
+![](/assets/imagenes/imagen1.png)
 
-![](assets/imagenes/imagen2.png)
+![](/assets/imagenes/imagen2.png)
 
-![](assets/imagenes/imagen3.png)
+![](/assets/imagenes/imagen3.png)
 
-![](assets/imagenes/imagen4.png)
+![](/assets/imagenes/imagen4.png)
 
