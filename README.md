@@ -7,11 +7,11 @@ Hola Amigos, aqui les dejo el Proyecto en HTML, CSS y Javascript sobre Los Mejor
 
 ![](/assets/imagenes/Imagen1.png)
 
-![](/assets/imagenes/imagen2.png)
+![](/assets/imagenes/Imagen2.png)
 
-![](/assets/imagenes/imagen3.png)
+![](/assets/imagenes/Imagen3.png)
 
-![](/assets/imagenes/imagen4.png)
+![](/assets/imagenes/Imagen4.png)
 
-![](imagenes/cajeroatm.jpg)
+
 
