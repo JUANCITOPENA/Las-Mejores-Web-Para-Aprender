@@ -297,6 +297,14 @@
                 transform: translateZ(100px);
                 border: solid 2px #ff3f34;
             }
+            .title-items {
+                border-bottom-style: solid;
+                border-width: 2px;
+                border-color: #e74c3c;
+                padding-bottom: 1em;
+                text-align: center;
+                font-size: 3em;
+            }
         }
         /*Formato Responsivo para Tamaños de 600 Maximo*/
         
@@ -352,6 +360,14 @@
                 text-align: center;
                 font-size: 1.5em;
             }
+            .title-items {
+                border-bottom-style: solid;
+                border-width: 2px;
+                border-color: #e74c3c;
+                padding-bottom: 1em;
+                text-align: center;
+                font-size: 2.5em;
+            }
         }
         /*Formato Responsivo para Tamaños de 500 Maximo*/
         
@@ -397,15 +413,22 @@
                 text-align: center;
                 font-size: 1em;
             }
-        }
-        
-        .card img {
-            width: 241px;
-            background: white;
-            box-shadow: 1px 1px 20px -5px black;
-            border-radius: 150px;
-            transform: translateZ(100px);
-            border: solid 2px #ff3f34;
+            .card img {
+                width: 241px;
+                background: white;
+                box-shadow: 1px 1px 20px -5px black;
+                border-radius: 150px;
+                transform: translateZ(100px);
+                border: solid 2px #ff3f34;
+            }
+            .title-items {
+                border-bottom-style: solid;
+                border-width: 2px;
+                border-color: #e74c3c;
+                padding-bottom: 1em;
+                text-align: center;
+                font-size: 2em;
+            }
         }
         /*Formato Responsivo para Tamaños de 600 Maximo*/
         
@@ -449,6 +472,6 @@
                 border-color: #e74c3c;
                 padding-bottom: 1em;
                 text-align: center;
-                font-size: 3em;
+                font-size: 2em;
             }
         }
